@@ -1,0 +1,72 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;	
+}
+
+body {	
+	/* Chrome 10+,Safari */
+	background : -webkit-radial-gradient(center center,circle farthest-corner, rgb(189, 140, 162) 21%, rgb(122, 89, 133) 78%);
+
+	/* Firefox 4+ */
+	background : -moz-linear-gradient(center center,circle farthest-corner, rgb(189, 140, 162) 21%, rgb(122, 89, 133) 78%);
+
+	/* Opera */
+	background : -o-linear-gradient(center center,circle farthest-corner, rgb(189, 140, 162) 21%, rgb(122, 89, 133) 78%);
+
+	/* IE 10+ */
+	background : -ms-linear-gradient(center center,circle farthest-corner, rgb(189, 140, 162) 21%, rgb(122, 89, 133) 78%);
+
+	/* W3C */
+	background : -linear-gradient(center center,circle farthest-corner, rgb(189, 140, 162) 21%, rgb(122, 89, 133) 78%);	
+
+	// .container, .row, .page, .content {
+	// 	height: 100%;
+	// }
+
+	.content {
+		height: 100%;
+		width: 100%;	
+
+		.slides {
+			display: table;		
+			height: 100%;  
+			width: 100%;    
+
+		    .slide {
+				display: table-cell;
+				position: relative;
+				vertical-align: middle;
+				padding: 50px 200px;				
+				color: #ec9;
+										
+
+				h1 {
+					margin-top: 0;
+					font-size: 8em;
+					line-height: 1.25;
+					margin-bottom: .5em;
+					text-align: center;
+					font-family: 'Oswald';
+				}
+			} 	
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
