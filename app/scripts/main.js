@@ -5,7 +5,8 @@ require.config({
         backbone: '../bower_components/backbone/backbone',
         handlebars: '../bower_components/handlebars/handlebars',
         text: '../bower_components/text/text',
-        bootstrap: '../bower_components/bootstrap.css/js/bootstrap'
+        bootstrap: '../bower_components/bootstrap.css/js/bootstrap',
+        cookie: '../bower_components/jquery.cookie/jquery.cookie'
     },
 
     shim: {

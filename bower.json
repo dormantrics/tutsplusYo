@@ -10,7 +10,7 @@
     "handlebars": "*",
     "text": "*",    
     "bootstrap.css": "*",
-    "font-awesome": "*"
+    "jquery.cookie": "*"
   },
   "devDependencies": {}
 }

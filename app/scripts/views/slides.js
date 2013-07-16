@@ -1,5 +1,5 @@
 /*global define*/
-define(['backbone', 'handlebars', 'text!templates/slides.html!strip', 'views/slide', 'vents/vent'], function(Backbone, Handlebars, slidesTemplate, SlideView, vent){
+define(['backbone', 'handlebars', 'text!templates/slides.html', 'views/slide', 'vents/vent'], function(Backbone, Handlebars, slidesTemplate, SlideView, vent){
 	'use strict';
 
 	var SlidesView= Backbone.View.extend({
@@ -50,6 +50,10 @@ define(['backbone', 'handlebars', 'text!templates/slides.html!strip', 'views/sli
 			if(currentSlideIndex !== targetSlideIndex){
 				this.tansitionSlides(currentSlide, targetSlide, options);
 			}
+
+			vent.trigger('slides:change:success', {
+					slideIndex: targetSlideIndex
+				});
 		},
 
 		getCurrentSlideIndex: function(){
@@ -96,7 +100,6 @@ define(['backbone', 'handlebars', 'text!templates/slides.html!strip', 'views/sli
 			var transitionSpeed= 1000;
 
 			currentSlide
-				// .css('position', 'absolute')
 				.animate({
 					top: options.direction=== 'next' ? '100%' : '-100%',
 					opacity: 'hide'
@@ -104,7 +107,6 @@ define(['backbone', 'handlebars', 'text!templates/slides.html!strip', 'views/sli
 					$(this).css('top', 0);
 
 					targetSlide
-						// .css('position', 'absolute')
 						.css('top', options.direction=== 'next' ? '-100%' : '100%')
 						.animate({
 							top: 0,
