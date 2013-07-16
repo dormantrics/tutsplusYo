@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* Chrome 10+,Safari */
+
+  background: -webkit-radial-gradient(center center, circle farthest-corner, #bd8ca2 21%, #7a5985 78%);
+  /* Firefox 4+ */
+
+  background: -moz-linear-gradient(center center, circle farthest-corner, #bd8ca2 21%, #7a5985 78%);
+  /* Opera */
+
+  background: -o-linear-gradient(center center, circle farthest-corner, #bd8ca2 21%, #7a5985 78%);
+  /* IE 10+ */
+
+  background: -ms-linear-gradient(center center, circle farthest-corner, #bd8ca2 21%, #7a5985 78%);
+  /* W3C */
+
+  background: -linear-gradient(center center, circle farthest-corner, #bd8ca2 21%, #7a5985 78%);
+}
+body .container,
+body .row,
+body .page {
+  height: 100%;
+}
+body .container .page .overlay,
+body .row .page .overlay,
+body .page .page .overlay {
+  position: relative;
+}
+body .container .page .overlay h4,
+body .row .page .overlay h4,
+body .page .page .overlay h4 {
+  color: #bd8ca2;
+  margin: 0;
+  padding: 10px 0 0 50px;
+}
+body .container .page .overlay i,
+body .row .page .overlay i,
+body .page .page .overlay i {
+  font-size: 2em;
+  color: #bd8ca2;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+body .container .page .overlay i[class$="left"],
+body .row .page .overlay i[class$="left"],
+body .page .page .overlay i[class$="left"] {
+  left: 0;
+}
+body .container .page .overlay i[class$="right"],
+body .row .page .overlay i[class$="right"],
+body .page .page .overlay i[class$="right"] {
+  right: 0;
+}
+body .container .page .content,
+body .row .page .content,
+body .page .page .content {
+  height: 100%;
+  width: 100%;
+}
+body .container .page .content .slides,
+body .row .page .content .slides,
+body .page .page .content .slides {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+body .container .page .content .slides .slide,
+body .row .page .content .slides .slide,
+body .page .page .content .slides .slide {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  padding: 50px 0;
+  color: #ec9;
+}
+body .container .page .content .slides .slide h1,
+body .row .page .content .slides .slide h1,
+body .page .page .content .slides .slide h1 {
+  margin-top: 0;
+  font-size: 5em;
+  line-height: 1.3;
+  margin-bottom: .5em;
+  text-align: center;
+  font-family: 'Telex', cursive;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25), 1px 1px 0px rgba(255, 255, 255, 0.25);
+  margin: 0 50px;
+}
+body .container .page .content .slides .slide h1.xxx-large,
+body .row .page .content .slides .slide h1.xxx-large,
+body .page .page .content .slides .slide h1.xxx-large {
+  font-size: 1.5em;
+  text-align: left;
+}
+body .container .page .content .slides .slide h1.xx-large,
+body .row .page .content .slides .slide h1.xx-large,
+body .page .page .content .slides .slide h1.xx-large {
+  font-size: 2em;
+  text-align: left;
+}
+body .container .page .content .slides .slide h1.x-large,
+body .row .page .content .slides .slide h1.x-large,
+body .page .page .content .slides .slide h1.x-large {
+  font-size: 3em;
+  text-align: left;
+}
+body .container .page .content .slides .slide h1.large,
+body .row .page .content .slides .slide h1.large,
+body .page .page .content .slides .slide h1.large {
+  font-size: 4em;
+  text-align: left;
+}
