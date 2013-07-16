@@ -6,7 +6,7 @@ require.config({
         handlebars: '../bower_components/handlebars/handlebars',
         text: '../bower_components/text/text',
         bootstrap: '../bower_components/bootstrap.css/js/bootstrap',
-        cookie: '../bower_components/jquery.cookie/jquery.cookie'
+        'jquery-cookie': '../bower_components/jquery.cookie/jquery.cookie'
     },
 
     shim: {
@@ -25,12 +25,17 @@ require.config({
 
         bootstrap: {
             deps: ['jquery']
+        },
+
+        'jquery-cookie'  : {
+            deps: ['jquery']
         }
     }
 });
 
-require(['app'], function (App) {
+require(['app', 'jquery', 'jquery-cookie'], function (App, $, cookie) {
     'use strict';
     // use app here
+    $.cookie();
     new App().init();
 });

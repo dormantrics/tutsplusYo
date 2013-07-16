@@ -16,7 +16,11 @@ define(['backbone'], function(Backbone){
 			var lettersCount= this.get('title').length;
 			var size;
 
-			if(lettersCount >= 200){
+			if(lettersCount >= 300){
+				size= 'xxx-large';
+			}
+
+			else if(lettersCount >= 200){
 				size= 'xx-large';
 			}
 			else if(lettersCount >= 100){

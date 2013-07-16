@@ -98,6 +98,12 @@ body .page .page .content .slides .slide h1 {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25), 1px 1px 0px rgba(255, 255, 255, 0.25);
   margin: 0 50px;
 }
+body .container .page .content .slides .slide h1.xxx-large,
+body .row .page .content .slides .slide h1.xxx-large,
+body .page .page .content .slides .slide h1.xxx-large {
+  font-size: 1.5em;
+  text-align: left;
+}
 body .container .page .content .slides .slide h1.xx-large,
 body .row .page .content .slides .slide h1.xx-large,
 body .page .page .content .slides .slide h1.xx-large {

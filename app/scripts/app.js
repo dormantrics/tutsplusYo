@@ -1,5 +1,5 @@
 /*global define */
-define(['collections/slides', 'views/slides', 'text!data/slides.json', 'routers/router', 'backbone', 'vents/vent', 'jquery', 'cookie'], function (Slides, SlidesView, slidesData, Router, Backbone, vent, $, cookie) {
+define(['collections/slides', 'views/slides', 'text!data/slides.json', 'routers/router', 'backbone', 'vents/vent', 'jquery'], function (Slides, SlidesView, slidesData, Router, Backbone, vent, $) {
     'use strict';
 
     var App= function(){

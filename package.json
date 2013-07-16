@@ -1,7 +1,9 @@
 {
   "name": "tutsplusyo",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "*"
+    },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-copy": "~0.4.1",

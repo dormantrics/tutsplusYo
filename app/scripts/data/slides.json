@@ -1,29 +1,227 @@
 [
-	{
-		"title": "Life can only be understood backwards; but it must be lived forwards."
-	},
-	{
-		"title": "The function of prayer is not to influence God, but rather to change the nature of the one who prays."
-	},
-	{
-		"title": "Anxiety is the dizziness of freedom."
-	},
-	{
-		"title": "People demand freedom of speech as a compensation for the freedom of thought which they seldom use."
-	},
-	{
-		"title": "It is perfectly true, as philosophers say, that life must be understood backwards. But they forget the other proposition, that it must be lived forwards."
-	},
-	{
-		"title": "Life is not a problem to be solved, but a reality to be experienced."
-	},
-	{
-		"title": "What labels me, negates me."
-	},
-	{
-		"title": "The Bible is very easy to understand. But we Christians are a bunch of scheming swindlers. We pretend to be unable to understand it because we know very well that the minute we understand, we are obliged to act accordingly."
-	},
-	{
-		"title": "There are two ways to be fooled. One is to believe what isn't true; the other is to refuse to believe what is true."
-	}
+    {
+        "title": "Life can only be understood backwards; but it must be lived forwards."
+    },
+    {
+        "title": "Anxiety is the dizziness of freedom."
+    },
+    {
+        "title": "People demand freedom of speech as a compensation for the freedom of thought which they seldom use."
+    },
+    {
+        "title": "Life is not a problem to be solved, but a reality to be experienced."
+    },
+    {
+        "title": "What labels me, negates me."
+    },
+    {
+        "title": "The most common form of despair is not being who you are."
+    },
+    {
+        "title": "Once you label me you negate me."
+    },
+    {
+        "title": "The most painful state of being is remembering the future, particularly the one you'll never have."
+    },
+    {
+        "title": "Face the facts of being what you are, for that is what changes what you are."
+    },
+    {
+        "title": "To dare is to lose one's footing momentarily. Not to dare is to lose oneself."
+    },
+    {
+        "title": "The tyrant dies and his rule is over, the martyr dies and his rule begins."
+    },
+    {
+        "title": "What if everything in the world were a misunderstanding, what if laughter were really tears?"
+    },
+    {
+        "title": "It is so hard to believe because it is so hard to obey."
+    },
+    {
+        "title": "Don't forget to love yourself."
+    },
+    {
+        "title": "I would rather be a swineherd, understood by the swine, than a poet misunderstood by men."
+    },
+    {
+        "title": "Now, with God's help, I shall become myself."
+    },
+    {
+        "title": "to have faith is precisely to lose one's mind so as to win God."
+    },
+    {
+        "title": "When you were called, did you answer or did you not? Perhaps softly and in a whisper?"
+    },
+    {
+        "title": "Many of us pursue pleasure with such breathless haste that we hurry past it."
+    },
+    {
+        "title": "Boredom is the root of all evil - the despairing refusal to be oneself."
+    },
+    {
+        "title": "It is impossible to exist without passion"
+    },
+    {
+        "title": "The self-assured believer is a greater sinner in the eyes of God than the troubled disbeliever."
+    },
+    {
+        "title": "Leap of faith – yes, but only after reflection"
+    },
+    {
+        "title": "I stick my finger into existence and it smells of nothing."
+    },
+    {
+        "title": "On the secretly blushing cheek is reflected the glow of the heart"
+    },
+    {
+        "title": "It is very important in life to know when your cue comes."
+    },
+    {
+        "title": "My sorrow is my castle."
+    },
+    {
+        "title": "Take away paradox from the thinker and you have a professor."
+    },
+    {
+        "title": ".....love yourself."
+    },
+    {
+        "title": "Faith is the highest passion in a man."
+    },
+    {
+        "title": "Purity of Heart Is to Will One Thing"
+    },
+    {
+        "title": "It's better to get lost in the passion than to lose the passion"
+    },
+    {
+        "title": "Life has its own hidden forces which you can only discover by living."
+    },
+    {
+        "title": "Language has time as its element; all other media have space as their element."
+    },
+    {
+        "title": "la vida sólo puede ser entendida mirando hacia atrás; aunque deba ser vivida mirando hacia adelante"
+    },
+    {
+        "title": "A 'no' does not hide anything, but a 'yes' very easily becomes a deception."
+    },
+    {
+        "title": "My standpoint is armed neutrality."
+    },
+    {
+        "title": "The task must be made difficult, for only the difficult inspires the noble-hearted."
+    },
+    {
+        "title": "Happiness is the greatest hiding place for despair."
+    },
+    {
+        "title": "...why bother remembering a past that cannot be made into a present?"
+    },
+    {
+        "title": "Therefore do not deceive yourself! Of all deceivers fear most yourself!"
+    },
+    {
+        "title": "If you want to be loathsome to God, just run with the herd."
+    },
+    {
+        "title": "To be lost in spiritlessness is the most terrible thing of all."
+    },
+    {
+        "title": "In my great melancholy, I loved life, for I love my melancholy."
+    },
+    {
+        "title": "My melancholy is the most faithful sweetheart I have had."
+    },
+    {
+        "title": "Nothing is as heady as the wine of possibility"
+    },
+    {
+        "title": "Once you are born in this world you’re old enough to die."
+    },
+    {
+        "title": "Far from idleness being the root of all evil, it is rather the only true good."
+    },
+    {
+        "title": "Sleeping is the height of genius"
+    },
+    {
+        "title": "A poet is not an apostle; he drives out devils only by the power of the devil."
+    },
+    {
+        "title": "Only the noble of heart are called to difficulty."
+    },
+    {
+        "title": "The Highest, after all, is not to  comprehend the Highest, but to do it."
+    },
+    {
+        "title": "Ulysses was not comely, but he was eloquent,Yet he fired two goddesses of the sea with love"
+    },
+    {
+        "title": "To dare is to momentarily lose one’s footing. But not to dare is to lose one’s self."
+    },
+    {
+        "title": "Be that self that one is"
+    },
+    {
+        "title": "I'm so misunderstood that people misunderstand me even when I tell them I'm misunderstood."
+    },
+    {
+        "title": "Boredom is the only continuity the ironist has."
+    },
+    {
+        "title": "What distinguishes all love from lust is the fact that it bears an impress of eternity."
+    },
+    {
+        "title": "The supreme paradox of all thought is the attempt to discover something that thought cannot think."
+    },
+    {
+        "title": "Spiritually, a man's thoughts must be the building in which he lives, otherwise it's wrong."
+    },
+    {
+        "title": "Faith is namely this paradox that the single individual is higher than the universal"
+    },
+    {
+        "title": "No woman in maternity confinement can have stranger and more impatient wishes than I have."
+    },
+    {
+        "title": "One becomes weary only of what is new."
+    },
+    {
+        "title": "Aşk için her şey imgedir; ama imge de hakikattir."
+    },
+    {
+        "title": "Durven is even de grond onder je voeten verliezen. Niet durven is je leven verliezen. "
+    },
+    {
+        "title": "La vita può essere capita solo all'indietro, ma va vissuta in avanti."
+    },
+    {
+        "title": "ماذا لو أن كل شيء في هذا العالم هو عبارة عن سوء فهم؟ماذا لو أن الضحك في الحقيقة هو بكاء؟"
+    },
+    {
+        "title": "if god loves me, he is my mortal enemy"
+    },
+    {
+        "title": "sessizliklerin en kesini susmak değil, konuşmaktir."
+    },
+    {
+        "title": "At vove er at miste fodfæstet et kort øjeblik - ikke at vove er at miste sig selv."
+    },
+    {
+        "title": "The specific character of despair is precisely this: it is unaware of being despair."
+    },
+    {
+        "title": "Najviše što jedan čovek može da uradi za drugog jeste da ga natera da se zapita"
+    },
+    {
+        "title": "Ask me what you wish; just do not ask me for reasons."
+    },
+    {
+        "title": "الحُبُّ المثالي يعني أن يحبَّ المرءُ مَنْ بسببه أضحى تعيسًا"
+    },
+    {
+        "title": "Mutismul cel mai sigur nu-i să taci, ci să vorbeşti."
+    }
 ]
